@@ -2600,8 +2600,9 @@ config TEST_BPF
 config FIND_BIT_BENCHMARK
 	tristate "Test find_bit functions"
 	help
-	  This builds the "test_find_bit" module that measure find_*_bit()
-	  functions performance.
+	  This builds the "find_bit_benchmark" module. It is a micro
+	  benchmark that measures the performance of find_*_bit()
+	  functions.
 
 	  If unsure, say N.
 
